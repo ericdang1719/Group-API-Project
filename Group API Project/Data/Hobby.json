@@ -1,0 +1,26 @@
+[
+    {
+        "Id": 1,
+        "Name": "Basketball",
+        "Category": "Sports",
+        "HoursPerWeek": 5,
+        "IsActive": true,
+        "DifficultyLevel": "Intermediate"
+    },
+    {
+        "Id": 2,
+        "Name": "Drawing",
+        "Category": "Arts",
+        "HoursPerWeek": 3,
+        "IsActive": false,
+        "DifficultyLevel": "Beginner-Master"
+    },
+    {
+        "Id": 3,
+        "Name": "Gaming",
+        "Category": "Entertainment",
+        "HoursPerWeek": 20,
+        "IsActive": true,
+        "DifficultyLevel": "Beginner"
+    }
+]

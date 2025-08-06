@@ -1,0 +1,29 @@
+[
+    {
+        "Id": 1,
+        "Name": "Buster",
+        "Species": "Dog",
+        "Age": 3,
+        "Breed": "Labrador",
+        "IsAdopted": true,
+        "AdoptionDate": "2022-06-15"
+    },
+    {
+        "Id": 2,
+        "Name": "Whiskers",
+        "Species": "Cat",
+        "Age": 2,
+        "Breed": "Siamese",
+        "IsAdopted": false,
+        "AdoptionDate": null
+    },
+    {
+        "Id": 3,
+        "Name": "Rose",
+        "Species": "Cat",
+        "Age": 2,
+        "Breed": "Domestic Short-Hair",
+        "IsAdopted": true,
+        "AdoptionDate": "2023-10-10"
+    }
+]

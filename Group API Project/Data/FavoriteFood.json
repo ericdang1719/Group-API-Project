@@ -1,0 +1,29 @@
+[
+    {
+        "Id": 1,
+        "Name": "Pizza",
+        "CuisineType": "Italian",
+        "SpicinessLevel": 1,
+        "IsVegetarian": false,
+        "IsGlutenFree": false,
+        "Description": "Bread, cheese, tomato sauce..."
+    },
+    {
+        "Id": 2,
+        "Name": "Falafel",
+        "CuisineType": "Middle Eastern",
+        "SpicinessLevel": 2,
+        "IsVegetarian": true,
+        "IsGlutenFree": true,
+        "Description": "Chickpea-based veggie balls..."
+    },
+    {
+        "Id": 3,
+        "Name": "Sushi",
+        "CuisineType": "Japanese",
+        "SpicinessLevel": 3,
+        "IsVegetarian": false,
+        "IsGlutenFree": true,
+        "Description": "Rice with fish..."
+    }
+]

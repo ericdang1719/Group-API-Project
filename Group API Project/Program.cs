@@ -1,5 +1,6 @@
 using NSwag.AspNetCore;
 using Microsoft.AspNetCore.Builder;
+using Group_API_Project.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddOpenApiDocument();
+builder.Services.AddSingleton<JsonDataService>();
 
 var app = builder.Build();
 
