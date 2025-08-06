@@ -18,7 +18,7 @@ builder.Services.AddOpenApiDocument(cfg =>
     {
         doc.Info.Title = "Group API Project";
         doc.Info.Version = "1.0.0";
-        doc.Info.Description = "Eric Dang, Kam Paxton, Schweitzer";
+        doc.Info.Description = "Eric Dang, Kam Paxton, Emily Schweitzer";
     };
 });
 
