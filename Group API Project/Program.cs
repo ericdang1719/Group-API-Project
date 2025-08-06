@@ -9,8 +9,19 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddOpenApiDocument();
 builder.Services.AddSingleton<JsonDataService>();
+
+builder.Services.AddOpenApiDocument(cfg =>
+{
+    cfg.DocumentName = "v1";
+    cfg.PostProcess = doc =>
+    {
+        doc.Info.Title = "Group API Project";
+        doc.Info.Version = "1.0.0";
+        doc.Info.Description = "CRUD API for our TeamMembers, Pets, Hobbies, and FavoriteFoods.";
+    };
+});
+
 
 var app = builder.Build();
 
