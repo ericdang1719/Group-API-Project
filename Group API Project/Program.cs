@@ -1,6 +1,7 @@
 using NSwag.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Group_API_Project.Data;
+//Eric Dang
 
 var builder = WebApplication.CreateBuilder(args);
 
